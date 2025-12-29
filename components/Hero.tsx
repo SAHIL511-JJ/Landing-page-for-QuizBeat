@@ -175,19 +175,6 @@ export default function Hero() {
                                 <span className="text-sm text-white font-medium">Accuracy</span>
                             </div>
                         </motion.div>
-
-                        <motion.div
-                            animate={{ y: [0, 10, 0] }}
-                            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                            className="absolute -bottom-4 -left-6 glass-card p-4 rounded-xl hidden md:block"
-                        >
-                            <div className="flex items-center gap-2">
-                                <div className="w-8 h-8 rounded-full bg-[#EC4899] flex items-center justify-center">
-                                    <Sparkles className="w-4 h-4 text-white" />
-                                </div>
-                                <span className="text-sm text-white font-medium">AI Generated</span>
-                            </div>
-                        </motion.div>
                     </div>
                 </motion.div>
 
